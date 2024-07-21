@@ -34,7 +34,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> NETHER_SAPPHIRE_ORE = registerBlock("nether_sapphire_ore", () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.NETHERRACK).strength(4f).requiresCorrectToolForDrops(), UniformInt.of(63, 64)));
     public static final RegistryObject<Block> END_STONE_SAPPHIRE_ORE = registerBlock("end_stone_sapphire_ore", () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE).strength(5f).requiresCorrectToolForDrops(), UniformInt.of(87, 20462)));
 
-    //regestiers blocks njk
+    //regestiers blocks
     private  static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         //registers block
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
