@@ -1,0 +1,21 @@
+{
+  "creative.tutorial_tab": "Sapphire Tutorial Tab",
+  "creative.testing_tab": "Food tab",
+
+
+  "item.tutorial_mod.sapphire": "Sapphire",
+  "item.tutorial_mod.raw_sapphire": "Raw Sapphire",
+  "item.tutorial_mod.beaper": "Beaper",
+  "item.tutorial_mod.blue_bean": "Blue Bean",
+  "item.tutorial_mod.debit_card": "Debit Card",
+
+
+  "block.tutorial_mod.sapphire_block": "Block of Sapphire",
+  "block.tutorial_mod.raw_sapphire_block": "Block of Raw Sapphire",
+  "block.tutorial_mod.redisold": "Redisold",
+  "block.tutorial_mod.blue_bean_block": "Crate of Blue Beans",
+  "block.tutorial_mod.sapphire_ore": "Sapphire Ore",
+  "block.tutorial_mod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.tutorial_mod.nether_sapphire_ore": "Nether Sapphire Ore",
+  "block.tutorial_mod.end_stone_sapphire_ore": "End Sapphire Ore"
+}
