@@ -32,7 +32,7 @@ public class ModItemModeProvider extends ItemModelProvider {
     //creates json files
     private ItemModelBuilder simpleItem(RegistryObject <Item> item) {
         return withExistingParent(item.getId().getPath(), //parent json
-                new ResourceLocation("Item/generated")).texture("layero", //normal item
+                new ResourceLocation("item/generated")).texture("layer0", //normal item
                 new ResourceLocation(tutorial_mod.MOD_ID, "item/" + item.getId().getPath())); //texture
     }
 }
