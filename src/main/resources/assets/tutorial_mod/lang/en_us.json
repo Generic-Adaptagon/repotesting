@@ -16,6 +16,7 @@
   "item.tutorial_mod.pine_cone": "Pine Cone",
 
   "tooltip.tutorial_mod.metal_detector.tooltip": "find valuvable items underground FIXME",
+  "tooltip.sound_block.tooltip" : "Makes sweet digerydoo thingy sound",
 
   "block.tutorial_mod.sapphire_block": "Block of Sapphire",
   "block.tutorial_mod.raw_sapphire_block": "Block of Raw Sapphire",
