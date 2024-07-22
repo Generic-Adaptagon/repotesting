@@ -28,6 +28,9 @@ public class ModCreativeModeTabs {
                 output.accept((Items.DIAMOND));
                 output.accept((Moditems.DEBIT_CARD.get()));
 
+                //Items
+                output.accept(Moditems.METAL_DETECTOR.get());
+
 
 
                 //Blocks

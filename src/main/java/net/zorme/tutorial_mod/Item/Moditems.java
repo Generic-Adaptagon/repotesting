@@ -6,6 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.IForgeRegistry;
 import net.minecraftforge.registries.RegistryObject;
+import net.zorme.tutorial_mod.Item.custom.MetalDetectorItem;
 import net.zorme.tutorial_mod.tutorial_mod;
 
 public class Moditems {
@@ -20,6 +21,7 @@ public class Moditems {
     public static final RegistryObject <Item>  BEAPER = ITEMS.register("beaper", () -> new  Item(new Item.Properties()));
     public static final RegistryObject <Item>  BLUE_BEAN = ITEMS.register("blue_bean", () -> new  Item(new Item.Properties()));
     public static final RegistryObject <Item>  DEBIT_CARD = ITEMS.register("debit_card", () -> new  Item(new Item.Properties()));
+    public static final RegistryObject <Item>  METAL_DETECTOR = ITEMS.register("metal_detector", () -> new MetalDetectorItem(new Item.Properties().durability(100)));
 
 
     public static void register (IEventBus eventBus) {
