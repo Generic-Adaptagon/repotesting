@@ -3,10 +3,14 @@
   "creative.testing_tab": "Food tab",
 
 
-  "item.tutorial_mod.sapphire": "Sapphire",
-  "item.tutorial_mod.raw_sapphire": "Raw Sapphire",
+
   "item.tutorial_mod.beaper": "Beaper",
   "item.tutorial_mod.blue_bean": "Blue Bean",
+  "item.tutorial_mod.strawberry": "Strawberry",
+
+
+  "item.tutorial_mod.sapphire": "Sapphire",
+  "item.tutorial_mod.raw_sapphire": "Raw Sapphire",
   "item.tutorial_mod.debit_card": "Debit Card",
   "item.tutorial_mod.metal_detector": "Metal Detector",
 

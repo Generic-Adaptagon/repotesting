@@ -57,6 +57,7 @@ public class ModCreativeModeTabs {
                         //food Items
                         output.accept(Moditems.BEAPER.get());
                         output.accept(Moditems.BLUE_BEAN.get());
+                        output.accept(Moditems.STRAWBERRY.get());
 
                         //food blocks
                         output.accept(ModBlocks.BLUE_BEAN_BLOCK.get());

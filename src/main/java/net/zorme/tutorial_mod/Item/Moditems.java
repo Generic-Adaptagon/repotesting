@@ -18,11 +18,13 @@ public class Moditems {
     //add item
     public static final RegistryObject <Item> SAPPHIRE =  ITEMS.register("sapphire", () -> new Item(new Item.Properties()));
     public static final RegistryObject <Item>  RAW_SAPPHIRE = ITEMS.register("raw_sapphire", () -> new  Item(new Item.Properties()));
-    public static final RegistryObject <Item>  BEAPER = ITEMS.register("beaper", () -> new  Item(new Item.Properties()));
-    public static final RegistryObject <Item>  BLUE_BEAN = ITEMS.register("blue_bean", () -> new  Item(new Item.Properties()));
     public static final RegistryObject <Item>  DEBIT_CARD = ITEMS.register("debit_card", () -> new  Item(new Item.Properties()));
+
     public static final RegistryObject <Item>  METAL_DETECTOR = ITEMS.register("metal_detector", () -> new MetalDetectorItem(new Item.Properties().durability(100)));
 
+    public static final RegistryObject <Item>  STRAWBERRY = ITEMS.register("strawberry", () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY)));
+    public static final RegistryObject <Item>  BEAPER = ITEMS.register("beaper", () -> new  Item(new Item.Properties().food(ModFoods.BEAPER)));
+    public static final RegistryObject <Item>  BLUE_BEAN = ITEMS.register("blue_bean", () -> new  Item(new Item.Properties().food(ModFoods.BLUE_BEAN)));
 
     public static void register (IEventBus eventBus) {
         ITEMS.register(eventBus);
