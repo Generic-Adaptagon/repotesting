@@ -4,8 +4,8 @@ import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.IForgeRegistry;
 import net.minecraftforge.registries.RegistryObject;
+import net.zorme.tutorial_mod.Item.custom.FuelItem;
 import net.zorme.tutorial_mod.Item.custom.MetalDetectorItem;
 import net.zorme.tutorial_mod.tutorial_mod;
 
@@ -25,6 +25,9 @@ public class Moditems {
     public static final RegistryObject <Item>  STRAWBERRY = ITEMS.register("strawberry", () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY)));
     public static final RegistryObject <Item>  BEAPER = ITEMS.register("beaper", () -> new  Item(new Item.Properties().food(ModFoods.BEAPER)));
     public static final RegistryObject <Item>  BLUE_BEAN = ITEMS.register("blue_bean", () -> new  Item(new Item.Properties().food(ModFoods.BLUE_BEAN)));
+    public static final RegistryObject <Item> PINE_CONE = ITEMS.register("pine_cone", () -> new FuelItem(new Item.Properties(), 400));
+
+
 
     public static void register (IEventBus eventBus) {
         ITEMS.register(eventBus);

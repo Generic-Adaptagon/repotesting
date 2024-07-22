@@ -26,9 +26,10 @@ public class ModCreativeModeTabs {
                 output.accept((Moditems.SAPPHIRE.get()));
                 output.accept((Moditems.RAW_SAPPHIRE.get()));
                 output.accept((Items.DIAMOND));
-                output.accept((Moditems.DEBIT_CARD.get()));
+                output.accept((Moditems.PINE_CONE.get()));
 
                 //Items
+                output.accept(Moditems.METAL_DETECTOR.get());
                 output.accept(Moditems.METAL_DETECTOR.get());
 
 
