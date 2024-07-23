@@ -30,7 +30,7 @@ public class ModCreativeModeTabs {
 
                 //Items
                 output.accept(Moditems.METAL_DETECTOR.get());
-                output.accept(Moditems.METAL_DETECTOR.get());
+                output.accept(Moditems.SAPPHIRE_STAFF.get());
 
 
                 //Blocks
