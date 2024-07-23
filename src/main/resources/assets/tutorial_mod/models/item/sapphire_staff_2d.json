@@ -1,6 +1,6 @@
 {
-    "parent": "minecraft:item/handheld",
+  "parent": "minecraft:item/handheld",
   "textures": {
-    "Layer0": "tutorial_mod:item/sapphire_staff"
+    "layer0": "tutorial_mod:item/sapphire_staff"
   }
 }
