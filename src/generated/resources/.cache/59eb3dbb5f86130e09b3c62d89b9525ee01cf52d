@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-22T16:43:04.8279508	Loot Tables
+// 1.20.1	2024-07-22T21:03:36.4063078	Loot Tables
 0a54eeb9defcb4d9ebfa2ad1d9830f7104da0df7 data/tutorial_mod/loot_tables/blocks/blue_bean_block.json
 523d9efcf2be60f39ac2817b3c7fe15476713f6e data/tutorial_mod/loot_tables/blocks/deepslate_sapphire_ore.json
 e85251f6c9bc4ebadf3023afb7658b0b13ba6b55 data/tutorial_mod/loot_tables/blocks/end_stone_sapphire_ore.json
@@ -6,5 +6,14 @@ e85251f6c9bc4ebadf3023afb7658b0b13ba6b55 data/tutorial_mod/loot_tables/blocks/en
 96ee252859c26f48a081a742137d8f77c59a38d5 data/tutorial_mod/loot_tables/blocks/raw_sapphire_block.json
 abbb3e2226ec4245a63d3114e1668a90de7f219f data/tutorial_mod/loot_tables/blocks/redisold.json
 25bf73936fe76e4cc0afe89b83975a7bc1655908 data/tutorial_mod/loot_tables/blocks/sapphire_block.json
+7324be87d6eafe510aa536bc4777bd36fa531f66 data/tutorial_mod/loot_tables/blocks/sapphire_button.json
+98426eb657407f55f9a5a01912b20a7b34e69ee1 data/tutorial_mod/loot_tables/blocks/sapphire_door.json
+8d5b08ca3ebbe3db9df708618fec8fafdf170b4a data/tutorial_mod/loot_tables/blocks/sapphire_fence.json
+9180f190a4a5a8d5dd24a60df52cb27a15a92ace data/tutorial_mod/loot_tables/blocks/sapphire_fence_gate.json
 14bd14869c07b341877f4fdb607b376b94607b7c data/tutorial_mod/loot_tables/blocks/sapphire_ore.json
+e4b26c0454cd4f6d8d4da3a3d425c8963061f2f6 data/tutorial_mod/loot_tables/blocks/sapphire_pressure_plate.json
+d427ddd30606cfc9236f5479af09b4628dd4edd1 data/tutorial_mod/loot_tables/blocks/sapphire_slab.json
+d119325591e64fd27fb4ac456226cf0686e72f39 data/tutorial_mod/loot_tables/blocks/sapphire_stairs.json
+492a84acae77f935e47270af4bb25e2063f1aac4 data/tutorial_mod/loot_tables/blocks/sapphire_trapdoor.json
+f4276c875603403ca847130eda6cb4af8b440e54 data/tutorial_mod/loot_tables/blocks/sapphire_wall.json
 bbe234d7589c2aad3f1095e9689e2d04eb2e0d31 data/tutorial_mod/loot_tables/blocks/sound_block.json

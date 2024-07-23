@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "tutorial_mod:block/sapphire_block"
+  }
+}

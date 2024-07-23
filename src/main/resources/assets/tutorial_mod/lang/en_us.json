@@ -9,6 +9,7 @@
   "item.tutorial_mod.strawberry": "Strawberry",
 
 
+
   "item.tutorial_mod.sapphire": "Sapphire",
   "item.tutorial_mod.raw_sapphire": "Raw Sapphire",
   "item.tutorial_mod.debit_card": "Debit Card",
@@ -17,6 +18,17 @@
 
   "tooltip.tutorial_mod.metal_detector.tooltip": "find valuvable items underground FIXME",
   "tooltip.sound_block.tooltip" : "Makes sweet digerydoo thingy sound",
+
+
+  "block.tutorial_mod.sapphire_stairs": "Sapphire Stairs",
+  "block.tutorial_mod.sapphire_slab": "Sapphire Slab",
+  "block.tutorial_mod.sapphire_button": "Sapphire Button",
+  "block.tutorial_mod.sapphire_pressure_plate": "Sapphire Pressure Plate",
+  "block.tutorial_mod.sapphire_fence": "Sapphire Fence",
+  "block.tutorial_mod.sapphire_fence_gate": "Sapphire fence Gate",
+  "block.tutorial_mod.sapphire_wall": "Sapphire Wall",
+  "block.tutorial_mod.sapphire_door": "Sapphire Door",
+  "block.tutorial_mod.sapphire_trapdoor": "Sapphire Trap Door",
 
   "block.tutorial_mod.sapphire_block": "Block of Sapphire",
   "block.tutorial_mod.raw_sapphire_block": "Block of Raw Sapphire",

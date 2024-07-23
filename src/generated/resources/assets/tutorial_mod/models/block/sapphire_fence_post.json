@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "tutorial_mod:block/sapphire_block"
+  }
+}

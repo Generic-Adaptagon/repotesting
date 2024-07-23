@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tutorial_mod:block/sapphire_slab"
+    },
+    "type=double": {
+      "model": "tutorial_mod:block/sapphire_block"
+    },
+    "type=top": {
+      "model": "tutorial_mod:block/sapphire_slab_top"
+    }
+  }
+}

@@ -1,8 +1,11 @@
-// 1.20.1	2024-07-22T16:43:04.8179522	Tags for minecraft:block mod id tutorial_mod
+// 1.20.1	2024-07-22T21:03:36.4053091	Tags for minecraft:block mod id tutorial_mod
 870ac87b0c854ba4b9fb58dca59d89f8558a3406 data/forge/tags/blocks/needs_netherite_tool.json
+e182367d8652e92f103098d641e3c6ff2d785564 data/minecraft/tags/blocks/fences.json
 e4271e1c40f2c8605df226a2ee29419e58a1ee7b data/minecraft/tags/blocks/mineable/axe.json
 a1e82427970697d176eac7ee1d4af96eea224b11 data/minecraft/tags/blocks/mineable/hoe.json
 d5e174eaa509f69d2422ba020ffe467a00e19a4c data/minecraft/tags/blocks/mineable/pickaxe.json
 7c909db58a5876312018be36f35d96cabd7dc283 data/minecraft/tags/blocks/needs_diamond_tool.json
 26cdbe5dd204190b22202d5e20631a9eff105a9e data/minecraft/tags/blocks/needs_iron_tool.json
+e1323eb82f816483783e4037a975f93d572bebb5 data/minecraft/tags/blocks/trapdoors.json
+e1b98d73961eca08f62aa94bfee34fc7ce7f93e3 data/minecraft/tags/blocks/walls.json
 f3e301a80da5ff0698c37cc99459e087a2d7f4ca data/tutorial_mod/tags/blocks/metal_detector_valuables.json
