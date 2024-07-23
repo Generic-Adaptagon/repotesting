@@ -1,6 +1,6 @@
 package net.zorme.tutorial_mod.Item;
 
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -27,6 +27,11 @@ public class Moditems {
     public static final RegistryObject <Item>  BEAPER = ITEMS.register("beaper", () -> new  Item(new Item.Properties().food(ModFoods.BEAPER).stacksTo(64)));
     public static final RegistryObject <Item>  BLUE_BEAN = ITEMS.register("blue_bean", () -> new  Item(new Item.Properties().food(ModFoods.BLUE_BEAN)));
     public static final RegistryObject <Item> PINE_CONE = ITEMS.register("pine_cone", () -> new FuelItem(new Item.Properties(), 400));
+    public static final RegistryObject <Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword", () -> new SwordItem(ModToolTeirs.SAPPHIRE, 4, 2,new Item.Properties()));
+    public static final RegistryObject <Item> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe", () -> new PickaxeItem(ModToolTeirs.SAPPHIRE, 2, 1,new Item.Properties()));
+    public static final RegistryObject <Item> SAPPHIRE_SHOVEL = ITEMS.register("sapphire_shovel", () -> new ShovelItem(ModToolTeirs.SAPPHIRE, 1, 1,new Item.Properties()));
+    public static final RegistryObject <Item> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe", () -> new HoeItem(ModToolTeirs.SAPPHIRE, 2, 1,new Item.Properties()));
+    public static final RegistryObject <Item> SAPPHIRE_AXE = ITEMS.register("sapphire_axe", () -> new AxeItem(ModToolTeirs.SAPPHIRE, 5, 1,new Item.Properties()));
 
 
 

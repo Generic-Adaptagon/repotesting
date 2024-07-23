@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-22T21:44:58.2106697	Item Models: tutorial_mod
+// 1.20.1	2024-07-22T23:30:16.6707555	Item Models: tutorial_mod
 ec971ff48ae22e45cc5f5f7e8abf295cb0d0a704 assets/tutorial_mod/models/item/beaper.json
 7ab431541e22044cd5e764945c53055013f09b9d assets/tutorial_mod/models/item/blue_bean.json
 f8a85c96aace171ec6471c9b7bf567dd8c2b2129 assets/tutorial_mod/models/item/debit_card.json
@@ -6,13 +6,18 @@ cf9fa74ad09d905ba8bd2074aa181bdee52cbbcf assets/tutorial_mod/models/item/metal_d
 54d3d10f7d7ab7941707a68debd89d58797011c7 assets/tutorial_mod/models/item/pine_cone.json
 ba4f5e79cd717a42e2f411f4412f5876c66bffe1 assets/tutorial_mod/models/item/raw_sapphire.json
 da7c22f1f238c3a08ed4256e2d50142265069faa assets/tutorial_mod/models/item/sapphire.json
+c53280500b56c6a0b7085a7160ab7cbaf6810229 assets/tutorial_mod/models/item/sapphire_axe.json
 eadb0d1b9248f57e4ad54ca159cda257f67dd6d1 assets/tutorial_mod/models/item/sapphire_button.json
 e53d5768d9c502743d43095b67f1b3554fedf16e assets/tutorial_mod/models/item/sapphire_door.json
 3c2cf3f72c419a5965d6a4b7a3ecac232f8f4ddb assets/tutorial_mod/models/item/sapphire_fence.json
 56307ab1fa8b204075d940a1db19c0be7f07ca9d assets/tutorial_mod/models/item/sapphire_fence_gate.json
+a687589b89d22229280e1a3c039efeddfbff7ac6 assets/tutorial_mod/models/item/sapphire_hoe.json
+cc92d1adb30e1b1193cbf77ceb0606f102ca3c57 assets/tutorial_mod/models/item/sapphire_pickaxe.json
 94de4b6e918f5657f23651e6079ee88d1dc4c725 assets/tutorial_mod/models/item/sapphire_pressure_plate.json
+6836c288351b5b30e6c8849ab0e4944946ffba46 assets/tutorial_mod/models/item/sapphire_shovel.json
 a208f41ad530da980c0f3236781274f62fba0ef4 assets/tutorial_mod/models/item/sapphire_slab.json
 fbe65008077891874b1275fd24ac9c232eb503d7 assets/tutorial_mod/models/item/sapphire_stairs.json
+3bb2972be85c719eca041ccd079b55fa04a54425 assets/tutorial_mod/models/item/sapphire_sword.json
 a43d7baf18df7be95eb3482ce6fc565309403580 assets/tutorial_mod/models/item/sapphire_trapdoor.json
 f1456ba8bbbcc5a01a7833647aee847d4958a957 assets/tutorial_mod/models/item/sapphire_wall.json
 8dae9764ab14dc81f09b2e3416e3fd962e32dc30 assets/tutorial_mod/models/item/strawberry.json

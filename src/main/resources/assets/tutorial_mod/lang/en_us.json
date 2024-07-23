@@ -16,6 +16,11 @@
   "item.tutorial_mod.metal_detector": "Metal Detector",
   "item.tutorial_mod.pine_cone": "Pine Cone",
   "item.tutorial_mod.sapphire_staff": "Sapphire Staff",
+  "item.tutorial_mod.sapphire_sword": "Sapphire Sword",
+  "item.tutorial_mod.sapphire_axe": "Sapphire Axe",
+  "item.tutorial_mod.sapphire_hoe": "Sapphire Hoe",
+  "item.tutorial_mod.sapphire_shovel": "Sapphire Shovel",
+  "item.tutorial_mod.sapphire_pickaxe": "Sapphire Pickaxe",
 
   "tooltip.tutorial_mod.metal_detector.tooltip": "find valuvable items underground FIXME",
   "tooltip.sound_block.tooltip" : "Makes sweet digerydoo thingy sound",
