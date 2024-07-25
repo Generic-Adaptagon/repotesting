@@ -22,7 +22,8 @@
   "item.tutorial_mod.sapphire_shovel": "Sapphire Shovel",
   "item.tutorial_mod.sapphire_pickaxe": "Sapphire Pickaxe",
 
-  "tooltip.tutorial_mod.metal_detector.tooltip": "find valuvable items underground FIXME",
+  "tooltip.tutorial_mod.metal_detector.tooltip": "Find valuvable items underground FIXME",
+  "tooltip.tutorial_mod.beaper.tooltip": "a *Very* hot fruit",
   "tooltip.sound_block.tooltip" : "Makes sweet digerydoo thingy sound",
 
 
