@@ -14,5 +14,5 @@ public class ModFoods {
     public static final FoodProperties BEAPER = new FoodProperties.Builder().nutrition(2)
             .saturationMod(0.2f).effect(() -> new MobEffectInstance(MobEffects.JUMP, 200, 2), 1).build();
     public static final FoodProperties BLUE_BEAN = new FoodProperties.Builder().nutrition(2)
-            .saturationMod(0.2f).build();
+            .saturationMod(0.2f).effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200), 1).build();
 }

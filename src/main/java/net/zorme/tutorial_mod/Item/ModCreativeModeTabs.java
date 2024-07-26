@@ -32,10 +32,18 @@ public class ModCreativeModeTabs {
                 output.accept(Moditems.METAL_DETECTOR.get());
                 output.accept(Moditems.SAPPHIRE_STAFF.get());
                 output.accept(Moditems.SAPPHIRE_SWORD.get());
+
+                //Tools
                 output.accept(Moditems.SAPPHIRE_HOE.get());
                 output.accept(Moditems.SAPPHIRE_AXE.get());
                 output.accept(Moditems.SAPPHIRE_PICKAXE.get());
                 output.accept(Moditems.SAPPHIRE_SHOVEL.get());
+
+                //Armor
+                output.accept(Moditems.SAPPHIRE_HELMET.get());
+                output.accept(Moditems.SAPPHIRE_CHESTPLATE.get());
+                output.accept(Moditems.SAPPHIRE_LEGGINGS.get());
+                output.accept(Moditems.SAPPHIRE_BOOTS.get());
 
 
 

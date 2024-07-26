@@ -16,14 +16,23 @@
   "item.tutorial_mod.metal_detector": "Metal Detector",
   "item.tutorial_mod.pine_cone": "Pine Cone",
   "item.tutorial_mod.sapphire_staff": "Sapphire Staff",
+
   "item.tutorial_mod.sapphire_sword": "Sapphire Sword",
   "item.tutorial_mod.sapphire_axe": "Sapphire Axe",
   "item.tutorial_mod.sapphire_hoe": "Sapphire Hoe",
   "item.tutorial_mod.sapphire_shovel": "Sapphire Shovel",
   "item.tutorial_mod.sapphire_pickaxe": "Sapphire Pickaxe",
 
-  "tooltip.tutorial_mod.metal_detector.tooltip": "Find valuvable items underground FIXME",
+  "item.tutorial_mod.sapphire_helmet": "Sapphire Helmet",
+  "item.tutorial_mod.sapphire_chestplate": "Sapphire Chestplate",
+  "item.tutorial_mod.sapphire_leggings": "Sapphire Leggins",
+  "item.tutorial_mod.sapphire_boots": "Sapphire Boots",
+
+
+
+  "tooltip.tutorial_mod.metal_detector.tooltip": "Find first valuable items underground",
   "tooltip.tutorial_mod.beaper.tooltip": "a *Very* hot fruit",
+  "tooltip.tutorial_mod.blue_bean.tooltip": "You can feel the gas escaping from the tuber FIXME",
   "tooltip.sound_block.tooltip" : "Makes sweet digerydoo thingy sound",
 
 
