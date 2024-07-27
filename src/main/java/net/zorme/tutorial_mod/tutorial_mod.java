@@ -15,6 +15,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.zorme.tutorial_mod.Item.ModCreativeModeTabs;
 import net.zorme.tutorial_mod.Item.Moditems;
 import net.zorme.tutorial_mod.blocks.ModBlocks;
+import net.zorme.tutorial_mod.loot.ModLootModifiers;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -36,6 +37,9 @@ public class tutorial_mod
         Moditems.register(modEventBus);
         //register the Blocks
         ModBlocks.register(modEventBus);
+
+        //regierster custom loot generators
+        ModLootModifiers.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
