@@ -5,8 +5,12 @@
 
 
   "item.tutorial_mod.beaper": "Beaper",
+  "tooltip.tutorial_mod.beaper.tooltip": "a *Very* hot fruit",
   "item.tutorial_mod.blue_bean": "Blue Bean",
+  "tooltip.tutorial_mod.blue_bean.tooltip": "You can feel the gas escaping from the tuber FIXME",
   "item.tutorial_mod.strawberry": "Strawberry",
+  "item.tutorial_mod.strawberry_crop": "Strawberry Crop",
+  "item.tutorial_mod.strawberry_seeds": "Strawberry Seeds",
 
 
 
@@ -31,8 +35,8 @@
 
 
   "tooltip.tutorial_mod.metal_detector.tooltip": "Find first valuable items underground",
-  "tooltip.tutorial_mod.beaper.tooltip": "a *Very* hot fruit",
-  "tooltip.tutorial_mod.blue_bean.tooltip": "You can feel the gas escaping from the tuber FIXME",
+
+
   "tooltip.sound_block.tooltip" : "Makes sweet digerydoo thingy sound",
 
 

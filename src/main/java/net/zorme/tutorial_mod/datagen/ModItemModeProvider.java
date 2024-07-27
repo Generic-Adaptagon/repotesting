@@ -55,6 +55,7 @@ public class ModItemModeProvider extends ItemModelProvider {
             simpleItem(Moditems.PINE_CONE);
             simpleItem(Moditems.RAW_SAPPHIRE);
             simpleItem(Moditems.STRAWBERRY);
+            simpleItem(Moditems.STRAWBERRY_SEEDS);
             simpleItem(Moditems.SAPPHIRE);
 
             handheldItem(Moditems.SAPPHIRE_SWORD);

@@ -12,6 +12,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.zorme.tutorial_mod.Item.Moditems;
+import net.zorme.tutorial_mod.Item.custom.StrawberryCropBlock;
 import net.zorme.tutorial_mod.blocks.custom.SoundBlock;
 import net.zorme.tutorial_mod.tutorial_mod;
 
@@ -58,6 +59,9 @@ public class ModBlocks {
             () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST).noOcclusion(), BlockSetType.IRON)); //noOcclusion is necessary because otherwise people will have xray with it
     public static final RegistryObject<Block> SAPPHIRE_TRAPDOOR = registerBlock("sapphire_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST).noOcclusion(), BlockSetType.IRON));
+    //crop
+    public static final RegistryObject<Block> STRAWBERRY_CROP = BLOCKS.register("strawberry_crop",
+            () -> new StrawberryCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion(). noCollission()));
 
 
     //regestiers blocks

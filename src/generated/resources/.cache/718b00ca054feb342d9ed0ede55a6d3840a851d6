@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-25T20:24:01.3777645	Item Models: tutorial_mod
+// 1.20.1	2024-07-27T16:06:42.0769118	Item Models: tutorial_mod
 ec971ff48ae22e45cc5f5f7e8abf295cb0d0a704 assets/tutorial_mod/models/item/beaper.json
 7ab431541e22044cd5e764945c53055013f09b9d assets/tutorial_mod/models/item/blue_bean.json
 f8a85c96aace171ec6471c9b7bf567dd8c2b2129 assets/tutorial_mod/models/item/debit_card.json
@@ -65,3 +65,4 @@ fbe65008077891874b1275fd24ac9c232eb503d7 assets/tutorial_mod/models/item/sapphir
 a43d7baf18df7be95eb3482ce6fc565309403580 assets/tutorial_mod/models/item/sapphire_trapdoor.json
 f1456ba8bbbcc5a01a7833647aee847d4958a957 assets/tutorial_mod/models/item/sapphire_wall.json
 8dae9764ab14dc81f09b2e3416e3fd962e32dc30 assets/tutorial_mod/models/item/strawberry.json
+20642b548d1b508329ad36874ae62f87da0f1ff7 assets/tutorial_mod/models/item/strawberry_seeds.json
