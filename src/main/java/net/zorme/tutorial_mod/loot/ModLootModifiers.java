@@ -16,6 +16,8 @@ public class ModLootModifiers {
 
     public static RegistryObject<Codec<? extends IGlobalLootModifier>> ADD_ITEM =
             LOOT_MODIFIER_SERIALZIERS.register("add_item", AddItemModifier.CODEC); //modified registered //new file provider in datagen called: ModGlobalLootModifiersProvider
+    public static RegistryObject<Codec<? extends IGlobalLootModifier>> ADD_SUS_SAND_ITEM =
+            LOOT_MODIFIER_SERIALZIERS.register("add_sus_sand_item", AddSusSandItemModifier.CODEC); //modified registered //new file provider in datagen called: ModGlobalLootModifiersProvider
 
     public static void register(IEventBus eventBus) {
         LOOT_MODIFIER_SERIALZIERS.register(eventBus);

@@ -12,6 +12,7 @@ import net.minecraftforge.common.loot.LootTableIdCondition;
 import net.zorme.tutorial_mod.Item.Moditems;
 import net.zorme.tutorial_mod.Item.custom.util.ModTags;
 import net.zorme.tutorial_mod.loot.AddItemModifier;
+import net.zorme.tutorial_mod.loot.AddSusSandItemModifier;
 import net.zorme.tutorial_mod.tutorial_mod;
 
 public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
@@ -23,7 +24,7 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
 
     @Override
     protected void start() {
-        //adds json file w/ 35% chance to drop
+        //adds json file w/ 35% chance to drop //check how Minecraft orders their stuff if you are confused on where to do it
         add("pine_cone_from_grass", new AddItemModifier(new LootItemCondition[]{
                 LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.GRASS).build(),
                 LootItemRandomChanceCondition.randomChance(0.35f).build()}, Moditems.PINE_CONE.get()));
@@ -33,6 +34,8 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
         //add metal detector to jungle temples chest 100 %
         add("metal_detector_from_jungle_temples", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation( "chests/jungle_temple")).build()}, Moditems.METAL_DETECTOR.get()));
+    add("metal_detector_from_suspicious_sand", new AddSusSandItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation( "archaeology/desert_pyramid")).build()}, Moditems.METAL_DETECTOR.get()));
 
     }
 }

@@ -2,6 +2,7 @@
   "entries": [
     "tutorial_mod:pine_cone_from_grass",
     "tutorial_mod:pine_cone_from_creeper",
+    "tutorial_mod:metal_detector_from_suspicious_sand",
     "tutorial_mod:metal_detector_from_jungle_temples"
   ],
   "replace": false
