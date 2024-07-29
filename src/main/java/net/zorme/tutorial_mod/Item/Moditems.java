@@ -40,10 +40,14 @@ public class Moditems {
 
     /*Foods/plant related*/
     public static final RegistryObject <Item> BEAPER = ITEMS.register("beaper", () -> new BeaperItem(new Item.Properties().food(ModFoods.BEAPER))); //FIXME NEEDS seeds
+    public static final RegistryObject <Item>  BEAPER_SEED = ITEMS.register("beaper_seed", () -> new ItemNameBlockItem(ModBlocks.BEAPER_CROP.get(), new Item.Properties()));
+
     public static final RegistryObject <Item> BLUE_BEAN = ITEMS.register("blue_bean", () -> new Blue_BeanItem(new Item.Properties().food(ModFoods.BLUE_BEAN))); //FIXME needs seeds
+
     public static final RegistryObject <Item> STRAWBERRY = ITEMS.register("strawberry", () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY)));
                                                                                                                         //needs to be ItemNameBlopckItem because its simplier
     public static final RegistryObject <Item>   STRAWBERRY_SEEDS = ITEMS.register("strawberry_seeds", () -> new ItemNameBlockItem(ModBlocks.STRAWBERRY_CROP.get(), new Item.Properties()));
+
 
     /*Tools*/
     public static final RegistryObject <Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword", () -> new SwordItem(ModToolTeirs.SAPPHIRE, 4, 2,new Item.Properties()));

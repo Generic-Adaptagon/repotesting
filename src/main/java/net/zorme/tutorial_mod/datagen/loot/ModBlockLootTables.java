@@ -16,6 +16,7 @@ import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
 import net.minecraftforge.registries.RegistryObject;
 import net.zorme.tutorial_mod.Item.Moditems;
+import net.zorme.tutorial_mod.Item.custom.BeaperCropBlock;
 import net.zorme.tutorial_mod.Item.custom.StrawberryCropBlock;
 import net.zorme.tutorial_mod.blocks.ModBlocks;
 
@@ -57,11 +58,17 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
 
         //crop//Look at vanillaBlockLoot class
-        LootItemCondition.Builder lootitemcondition$builder = LootItemBlockStatePropertyCondition
+        LootItemCondition.Builder lootitemcondition$builder = LootItemBlockStatePropertyCondition //for age 5 plants
                 .hasBlockStateProperties(ModBlocks.STRAWBERRY_CROP.get())
                 .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(StrawberryCropBlock.AGE, 5));//if full age
         this.add(ModBlocks.STRAWBERRY_CROP.get(), createCropDrops(ModBlocks.STRAWBERRY_CROP.get(), Moditems.STRAWBERRY.get(),
                 Moditems.STRAWBERRY_SEEDS.get(), lootitemcondition$builder));
+
+        LootItemCondition.Builder loot7itemcondition$builder = LootItemBlockStatePropertyCondition //for age 7 plants
+                .hasBlockStateProperties(ModBlocks.BEAPER_CROP.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(BeaperCropBlock.AGE, 7));//if full age
+        this.add(ModBlocks.BEAPER_CROP.get(), createCropDrops(ModBlocks.BEAPER_CROP.get(), Moditems.BEAPER.get(),
+                Moditems.BEAPER_SEED.get(), loot7itemcondition$builder));
 
     }
 

@@ -9,17 +9,17 @@ import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.zorme.tutorial_mod.Item.Moditems;
 
-public class StrawberryCropBlock extends CropBlock {
-    public static  final int MAX_AGE = 5; //can change the ages // if go above 7 need to changed the VoxelShape
-    public static  final IntegerProperty AGE = BlockStateProperties.AGE_5; // Inetger Property allows different blocks to have different age
+public class BeaperCropBlock extends CropBlock {
+    public static  final int MAX_AGE = 7; //can change the ages // if go above 7 need to changed the VoxelShape
+    public static  final IntegerProperty AGE = BlockStateProperties.AGE_7; // Inetger Property allows different blocks to have different age
 
-    public StrawberryCropBlock(Properties pProperties) {
+    public BeaperCropBlock(Properties pProperties) {
         super(pProperties);
     }
 
     @Override
     protected ItemLike getBaseSeedId() {
-        return Moditems.STRAWBERRY_SEEDS.get();
+        return Moditems.BEAPER_SEED.get();
     }
 
     @Override

@@ -8,6 +8,7 @@ import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ConfiguredModel;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
+import net.zorme.tutorial_mod.Item.custom.BeaperCropBlock;
 import net.zorme.tutorial_mod.Item.custom.StrawberryCropBlock;
 import net.zorme.tutorial_mod.blocks.ModBlocks;
 import net.zorme.tutorial_mod.tutorial_mod;
@@ -47,6 +48,7 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.SAPPHIRE_TRAPDOOR.get()), modLoc("block/sapphire_trapdoor"), true, "cutout");
 
         makeStrawberryCrop((CropBlock) ModBlocks.STRAWBERRY_CROP.get(), "strawberry_stage", "strawberry_stage");
+        makeBeaperCrop((CropBlock) ModBlocks.BEAPER_CROP.get(), "beaper_stage", "beaper_stage");
 
 
     }
@@ -62,6 +64,19 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         ConfiguredModel[] models = new ConfiguredModel[1];
         models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((StrawberryCropBlock) block).getAgeProperty()),
                 new ResourceLocation(tutorial_mod.MOD_ID, "block/" + textureName + state.getValue(((StrawberryCropBlock) block).getAgeProperty()))).renderType("cutout"));
+
+        return models;
+    }
+
+    public void makeBeaperCrop(CropBlock block, String modelName, String textureName) {
+        Function<BlockState, ConfiguredModel[]> function = state -> beaperStates(state, block, modelName, textureName);
+
+        getVariantBuilder(block).forAllStates(function);
+    }
+    private ConfiguredModel[] beaperStates(BlockState state, CropBlock block, String modelName, String textureName) {
+        ConfiguredModel[] models = new ConfiguredModel[1];
+        models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((BeaperCropBlock) block).getAgeProperty()),
+                new ResourceLocation(tutorial_mod.MOD_ID, "block/" + textureName + state.getValue(((BeaperCropBlock) block).getAgeProperty()))).renderType("cutout"));
 
         return models;
     }

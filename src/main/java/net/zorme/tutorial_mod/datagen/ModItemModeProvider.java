@@ -49,13 +49,15 @@ public class ModItemModeProvider extends ItemModelProvider {
     protected void registerModels() {
 
             simpleItem(Moditems.BEAPER);
+            simpleItem(Moditems.BEAPER_SEED);
             simpleItem(Moditems.BLUE_BEAN);
+            simpleItem(Moditems.STRAWBERRY);
+            simpleItem(Moditems.STRAWBERRY_SEEDS);
             simpleItem(Moditems.DEBIT_CARD);
             simpleItem(Moditems.METAL_DETECTOR);
             simpleItem(Moditems.PINE_CONE);
             simpleItem(Moditems.RAW_SAPPHIRE);
-            simpleItem(Moditems.STRAWBERRY);
-            simpleItem(Moditems.STRAWBERRY_SEEDS);
+
             simpleItem(Moditems.SAPPHIRE);
 
             handheldItem(Moditems.SAPPHIRE_SWORD);

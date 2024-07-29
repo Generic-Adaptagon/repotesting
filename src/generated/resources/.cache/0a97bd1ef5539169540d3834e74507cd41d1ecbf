@@ -1,4 +1,5 @@
-// 1.20.1	2024-07-27T16:06:42.0798817	Block States: tutorial_mod
+// 1.20.1	2024-07-28T21:24:47.9088413	Block States: tutorial_mod
+03fc14f357eb23582be1f6cc7858bf656866c5de assets/tutorial_mod/blockstates/beaper_crop.json
 a3b57ca84aaac820dde11085dbae1fa304b77178 assets/tutorial_mod/blockstates/blue_bean_block.json
 a3a7c5c3b6174f993ea7ef75f3178817e3d3618d assets/tutorial_mod/blockstates/deepslate_sapphire_ore.json
 ac2a0424c0d916f2c4dbd7307b66715cb4409a19 assets/tutorial_mod/blockstates/end_stone_sapphire_ore.json
@@ -18,6 +19,14 @@ b00be43cf3b401b7e46e14530111e6016b75577e assets/tutorial_mod/blockstates/sapphir
 7549b2748b1ef2e2477a84f4e05f2b0564bbaebc assets/tutorial_mod/blockstates/sapphire_wall.json
 9da72701d49f7fe49cf489737b20e3d02fd1e199 assets/tutorial_mod/blockstates/sound_block.json
 e39acdac75a4fcbcc9d24ee69f0a4346e8106efa assets/tutorial_mod/blockstates/strawberry_crop.json
+197a3db4bc835a76bb0575da456a303a92ce95e7 assets/tutorial_mod/models/block/beaper_stage0.json
+43a37d1b3d3f8d2b1fe9678b4128cbdc121a4dd4 assets/tutorial_mod/models/block/beaper_stage1.json
+69ce15bc2503580ad06428fdaa4687c424004bd1 assets/tutorial_mod/models/block/beaper_stage2.json
+5de6d5e2fa3dceaf283ac76ccbc70b5e6259ceb0 assets/tutorial_mod/models/block/beaper_stage3.json
+539b02362b59d0240fa7e96e9dcbe5ac267a62c9 assets/tutorial_mod/models/block/beaper_stage4.json
+70abdac8eaa89d8c35a82474e431ee5595dffff2 assets/tutorial_mod/models/block/beaper_stage5.json
+b9ff55a980c30dec2905af7fcc86f67709405bee assets/tutorial_mod/models/block/beaper_stage6.json
+1be5684edcffe5ee96729db4f430cd955ae92407 assets/tutorial_mod/models/block/beaper_stage7.json
 75b8e36a4f24b3032ddd6694b172b5fe11075f4b assets/tutorial_mod/models/block/blue_bean_block.json
 29168672f2c8139ac239ad6a196bb2b13958d3b5 assets/tutorial_mod/models/block/deepslate_sapphire_ore.json
 2c493e5349db3bce72c26a1b5aa9bd747db9e277 assets/tutorial_mod/models/block/end_stone_sapphire_ore.json

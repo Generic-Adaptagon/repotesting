@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "tutorial_mod:block/beaper_stage0"
+    },
+    "age=1": {
+      "model": "tutorial_mod:block/beaper_stage1"
+    },
+    "age=2": {
+      "model": "tutorial_mod:block/beaper_stage2"
+    },
+    "age=3": {
+      "model": "tutorial_mod:block/beaper_stage3"
+    },
+    "age=4": {
+      "model": "tutorial_mod:block/beaper_stage4"
+    },
+    "age=5": {
+      "model": "tutorial_mod:block/beaper_stage5"
+    },
+    "age=6": {
+      "model": "tutorial_mod:block/beaper_stage6"
+    },
+    "age=7": {
+      "model": "tutorial_mod:block/beaper_stage7"
+    }
+  }
+}
